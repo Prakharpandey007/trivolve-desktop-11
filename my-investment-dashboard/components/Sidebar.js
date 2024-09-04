@@ -4,10 +4,10 @@ import Image from 'next/image';
 const Sidebar = () => {
   return (
     <aside
-      className="bg-gray-900 p-4 flex flex-col h-screen rounded-lg flex-shrink-0"
-      style={{ width: '286px', background: '#141414', borderRadius: '12px' }}
+      className="max-h-screen bg-gray-900 p-4 flex flex-col rounded-lg flex-shrink-0 mt-2 ml-4"
+      style={{ width: '286px',height:'970px', background: '#141414', borderRadius: '12px' }}
     >
-      <div className="flex items-center mb-10">
+      <div className="flex items-center mb-10 ">
         {/* Logo */}
         <Image
           src="/images/Logo (2).jpg"
@@ -119,11 +119,11 @@ const Sidebar = () => {
         </ul>
       </nav>
 
-      <div
-        className="mt-auto pt-10 border-t"
-        style={{ borderTop: '1px solid #343434', background: '#212121' }}
+    <div
+        className="mt-auto pt-4"
+        style={{  background: '#212121' }}
       >
-        <div className="flex justify-center space-x-4">
+        <div className="flex justify-center space-x-4 ">
           <a href="#" className="text-gray-400 hover:text-white">
             <Image
               src="/images/ant-design_x-outlined.jpg"
@@ -132,7 +132,7 @@ const Sidebar = () => {
               height={24}
             />
           </a>
-          <a href="#" className="text-gray-400 hover:text-white">
+          <a href="#" className="text-gray-400 hover:text-white ">
             <Image
               src="/images/instagram-one.jpg"
               alt="Instagram"

@@ -11,9 +11,9 @@ export default function Home() {
         {/* <Header className="bg-black" /> */}
         <div className="flex-1 p-6 bg-black"> {/* Set background color to black */}
           {/* Container to align the heading and set its style */}
-          <div className="flex items-center mb-4">
+          <div className="flex items-center mb-6">
             <h1
-              className="text-white font-bold"
+              className="text-white font-bold mt-8"
               style={{
                 fontFamily: '"OffBit Trial"',
                 fontSize: '20px',
